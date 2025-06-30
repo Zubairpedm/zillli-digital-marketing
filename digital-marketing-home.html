@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing Agency - Grow Your Business Online</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0F172A; /* Dark blue-gray background */
+            color: #E2E8F0; /* Light gray text */
+        }
+        .nav-link {
+            transition: color 0.3s ease;
+        }
+        .nav-link:hover {
+            color: #14B8A6; /* Teal on hover */
+        }
+        .cta-button {
+            background-image: linear-gradient(to right, #14B8A6, #0D9488); /* Teal gradient */
+            transition: all 0.3s ease;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+        }
+        .cta-button:hover {
+            background-image: linear-gradient(to right, #0D9488, #14B8A6); /* Reverse gradient on hover */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.35);
+            transform: translateY(-3px);
+        }
+        .service-card {
+            background-color: #1E293B; /* Card background */
+            border: 1px solid #334155; /* Subtle border */
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <div class="min-h-screen flex flex-col">
+        <!-- Navigation Bar -->
+        <nav class="bg-gray-900 p-6 shadow-lg">
+            <div class="container mx-auto flex justify-between items-center">
+                <a href="digital-marketing-home.html" class="text-white text-3xl font-bold">DigitalGrow</a>
+                <div class="space-x-8">
+                    <a href="digital-marketing-home.html" class="nav-link text-gray-300 text-lg font-medium">Home</a>
+                    <a href="digital-marketing-services.html" class="nav-link text-gray-300 text-lg font-medium">Services</a>
+                    <a href="digital-marketing-contact.html" class="nav-link text-gray-300 text-lg font-medium">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <header class="relative bg-gray-800 text-center py-24 px-4 sm:px-6 lg:px-8 flex-grow flex items-center justify-center">
+            <div class="absolute inset-0 bg-cover bg-center opacity-30" style="background-image: url('https://placehold.co/1920x1080/1F2937/F3F4F6?text=Digital+Marketing+Success');"></div>
+            <div class="relative z-10 max-w-4xl mx-auto">
+                <h1 class="text-6xl font-extrabold text-white mb-6 leading-tight">
+                    Transform Your Business with Strategic Digital Marketing
+                </h1>
+                <p class="text-2xl text-blue-200 mb-10">
+                    We craft tailored digital strategies that connect you with your audience, drive conversions, and accelerate your growth.
+                </p>
+                <a href="digital-marketing-services.html" class="cta-button inline-block text-white font-bold py-5 px-12 rounded-full text-2xl focus:outline-none focus:ring-4 focus:ring-teal-400 focus:ring-opacity-75">
+                    Discover Our Solutions
+                </a>
+            </div>
+        </header>
+
+        <!-- About Us / Why Choose Us Section -->
+        <section class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900">
+            <div class="container mx-auto max-w-5xl text-center">
+                <h2 class="text-5xl font-bold text-white mb-10">Why Partner with DigitalGrow?</h2>
+                <p class="text-xl text-gray-300 leading-relaxed mb-12">
+                    At DigitalGrow, we're more than just an agency; we're your dedicated growth partners. We blend cutting-edge techniques with deep industry insights to deliver measurable results and help your brand thrive in the competitive digital landscape.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="service-card rounded-2xl p-8 shadow-xl">
+                        <!-- New SVG Icon for Data & Analytics -->
+                        <svg class="w-16 h-16 text-teal-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"></path>
+                        </svg>
+                        <h3 class="text-2xl font-semibold text-white mb-3">Data-Driven Precision</h3>
+                        <p class="text-md text-gray-400">Our strategies are built on robust analytics, ensuring every decision is optimized for maximum ROI and tangible outcomes.</p>
+                    </div>
+                    <div class="service-card rounded-2xl p-8 shadow-xl">
+                        <!-- New SVG Icon for Innovation & Strategy -->
+                        <svg class="w-16 h-16 text-teal-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4.343 19.657l-.707.707M17 12a5 5 0 11-10 0 5 5 0 0110 0z"></path>
+                        </svg>
+                        <h3 class="text-2xl font-semibold text-white mb-3">Innovative Strategies</h3>
+                        <p class="text-md text-gray-400">We constantly evolve our approaches, leveraging the latest trends and technologies to keep your brand ahead of the curve.</p>
+                    </div>
+                    <div class="service-card rounded-2xl p-8 shadow-xl">
+                        <!-- New SVG Icon for Client Success -->
+                        <svg class="w-16 h-16 text-teal-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <h3 class="text-2xl font-semibold text-white mb-3">Unwavering Client Success</h3>
+                        <p class="text-md text-gray-400">Your business objectives are our mission. We commit to transparent communication and a partnership approach for mutual success.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-gray-950 py-12 text-center text-gray-400 text-sm">
+            <p>&copy; 2025 DigitalGrow. All rights reserved.</p>
+            <p class="mt-2">Empowering businesses in the digital age.</p>
+        </footer>
+    </div>
+</body>
+</html>
